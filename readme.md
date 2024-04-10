@@ -1,5 +1,3 @@
-Sure, here's the updated README.md file with the code snippets included:
-
 # Fine-tuned Stable Diffusion Model for Virat Kohli
 
 This repository contains a fine-tuned Stable Diffusion model, specifically the SDXL 1.0 version, trained to generate images of the famous Indian cricketer Virat Kohli. The model was fine-tuned using the Dreambooth technique, which involves training a pre-existing model on a few images of the subject to capture their likeness and characteristics.
@@ -22,12 +20,12 @@ The model was trained on a set of 6 images of Virat Kohli, which are included in
 </style>
 
 <div class="image-grid">
-  <img src="img/vk1.jpg" alt="Image 1">
-  <img src="img/vk2.jpg" alt="Image 2">
-  <img src="img/vk3.webp" alt="Image 3">
-  <img src="img/vk4.jpg" alt="Image 4">
-  <img src="img/vk5.jpg" alt="Image 5">
-  <img src="img/vk6.jpg" alt="Image 6">
+  <img src="Original/vk1.jpg" alt="Image 1">
+  <img src="Original/vk2.jpg" alt="Image 2">
+  <img src="Original/vk3.webp" alt="Image 3">
+  <img src="Original/vk4.jpg" alt="Image 4">
+  <img src="Original/vk5.jpg" alt="Image 5">
+  <img src="Original/vk6.jpg" alt="Image 6">
 </div>
 
 ## Training Process
@@ -60,7 +58,7 @@ After training, the fine-tuned model can generate new images of Virat Kohli base
 
 <div>
   <figure>
-    <img src="Generated/gen(2).png" width="250">
+    <img src="Generated/gen (2).png" width="250">
     <figcaption>Prompt : Virat Kohli wearing sunglasses</figcaption>
   </figure>
   <figure>
