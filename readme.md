@@ -14,8 +14,8 @@ The model was trained on a set of 6 images of Virat Kohli, which are included in
   }
 
   .image-grid img {
-    width: 100%;
     height: auto;
+    max-width: 200px; /* Adjust this value to change the maximum width */
   }
 </style>
 
