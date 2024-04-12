@@ -51,6 +51,10 @@ After training, the fine-tuned model can generate new images of Virat Kohli base
     <p>Prompt: Virat Kohli wearing sunglasses</p>
   </div>
   <div style="text-align: center;">
+    <img src="Generated/gen (6).png" width="30%" alt="Virat Kohli as army personnel">
+    <p>Prompt: Virat Kohli as army personnel</p>
+  </div>
+  <div style="text-align: center;">
     <img src="Generated/0.png" width="30%" alt="Virat Kohli eating butter chicken">
     <p>Prompt: Virat Kohli eating butter chicken</p>
   </div>
