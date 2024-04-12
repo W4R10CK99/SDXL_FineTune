@@ -4,28 +4,17 @@ This repository contains a fine-tuned Stable Diffusion model, specifically the S
 
 # Training Data
 
-The model was trained on a set of 6 images of Virat Kohli, which are included in the `img` folder of this repository. These images cover different angles, expressions, and contexts, providing a diverse representation of the subject.
+The model was trained on a set of 6 images of Virat Kohli, which are included in the `Original` folder of this repository. These images cover different angles, expressions, and contexts, providing a diverse representation of the subject.
 
-<style>
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-  }
 
-  .image-grid img {
-    width: 100%;
-    height: auto;
-  }
-</style>
 
-<div class="image-grid">
-  <img src="Original/vk1.jpg" alt="Image 1">
-  <img src="Original/vk2.jpg" alt="Image 2">
-  <img src="Original/vk3.webp" alt="Image 3">
-  <img src="Original/vk4.jpg" alt="Image 4">
-  <img src="Original/vk5.jpg" alt="Image 5">
-  <img src="Original/vk6.jpg" alt="Image 6">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 10px;">
+  <img src="Original/vk1.jpg" alt="Image 1" width="150">
+  <img src="Original/vk2.jpg" alt="Image 2" width="150">
+  <img src="Original/vk3.webp" alt="Image 3" width="150">
+  <img src="Original/vk4.jpg" alt="Image 4" width="150">
+  <img src="Original/vk5.jpg" alt="Image 5" width="150">
+  <img src="Original/vk6.jpg" alt="Image 6" width="150">
 </div>
 
 ## Training Process
@@ -56,19 +45,19 @@ The model was fine-tuned using the following command:
 
 After training, the fine-tuned model can generate new images of Virat Kohli based on text prompts. Here are some examples of generated images stored in the `Gen` folder:
 
-<div>
-  <figure>
-    <img src="Generated/gen (2).png" width="250">
-    <figcaption>Prompt : Virat Kohli wearing sunglasses</figcaption>
-  </figure>
-  <figure>
-    <img src="Generated/0.png" width="250">
-    <figcaption>Prompt : Virat Kohli eating butter chicken</figcaption>
-  </figure>
-  <figure>
-    <img src="Generated/5.png" width="250">
-    <figcaption>Prompt : Virat Kohli ripped muscles</figcaption>
-  </figure>
+<div style="display: flex; flex-wrap: nowrap; justify-content: space-around;">
+  <div style="text-align: center;">
+    <img src="Generated/gen (2).png" width="30%" alt="Virat Kohli wearing sunglasses">
+    <p>Prompt: Virat Kohli wearing sunglasses</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="Generated/0.png" width="30%" alt="Virat Kohli eating butter chicken">
+    <p>Prompt: Virat Kohli eating butter chicken</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="Generated/5.png" width="30%" alt="Virat Kohli ripped muscles">
+    <p>Prompt: Virat Kohli ripped muscles</p>
+  </div>
 </div>
 
 ## Image Generation
